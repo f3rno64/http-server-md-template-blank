@@ -6,7 +6,7 @@
   "author": "Cris Mihalache <f3rno64@gmail.com>",
   "main": "index.js",
   "engines": {
-    "node": ">=11.14.0"
+    "node": ">=16.0.0"
   },
   "files": [
     "index.js",
