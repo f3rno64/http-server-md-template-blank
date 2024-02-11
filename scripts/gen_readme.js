@@ -2,7 +2,7 @@ const path = require('path')
 const { promises: fs } = require('fs')
 const _template = require('lodash/template')
 const jsDoc2MD = require('jsdoc-to-markdown')
-const { getLogger } = require('serve-markdown-it-lib')
+const { getLogger } = require('http-server-md-lib')
 
 /**
  * @private

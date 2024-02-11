@@ -1,9 +1,9 @@
 {
-  "name": "serve-markdown-it-template-blank",
+  "name": "http-server-md-template-blank",
   "version": "1.0.2",
   "license": "MIT",
-  "description": "Blank template skeleton for serve-markdown-it",
-  "author": "Cris Mihalache <me@f3rno.com>",
+  "description": "Blank template skeleton for http-server-md",
+  "author": "Cris Mihalache <f3rno64@gmail.com>",
   "main": "index.js",
   "engines": {
     "node": ">=11.14.0"
@@ -19,20 +19,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/f3rno/server-markdown-it-template-blank.git"
+    "url": "https://github.com/f3rno64/http-server-md-template-blank.git"
   },
-  "homepage": "https://github.com/f3rno/server-markdown-it-template-blank",
+  "homepage": "https://github.com/f3rno64/http-server-md-template-blank",
   "bugs": {
-    "url": "https://github.com/f3rno/server-markdown-it-template-blank/issues"
+    "url": "https://github.com/f3rno64/http-server-md-template-blank/issues"
   },
   "keywords": [
     "cli",
     "html",
     "markdown",
     "markdown-it",
-    "serve-markdown-it",
-    "sermit",
-    "sermit-template",
+    "http-server-md",
+    "http-server-md-template",
     "nunjucks",
     "scss"
   ],
@@ -93,7 +92,7 @@
     "mocha": "^8.0.1",
     "nyc": "^15.1.0",
     "remark": "^15.0.1",
-    "serve-markdown-it-lib": "^1.0.5",
+    "http-server-md-lib": "^1.0.5",
     "standard-version": "^8.0.0",
     "stylelint": "^13.6.1",
     "stylelint-config-rational-order": "^0.1.2",

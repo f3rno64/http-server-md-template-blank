@@ -1,8 +1,8 @@
 ## Modules
 
 <dl>
-<dt><a href="#module_serve-markdown-it-template-blank">serve-markdown-it-template-blank</a></dt>
-<dd><p>Blank template skeleton for <a href="https://github.com/f3rno/serve-markdown-it">serve-markdown-it</a>, serving as a
+<dt><a href="#module_http-server-md-template-blank">http-server-md-template-blank</a></dt>
+<dd><p>Blank template skeleton for <a href="https://github.com/f3rno64/http-server-md">http-server-md</a>, serving as a
 reference for the required structure.</p>
 <p>Used by the <code>sermit</code> CLI app to create an empty template repo via the
 <code>init-template</code> command.</p>
@@ -32,7 +32,7 @@ project root by default.</p>
 </dd>
 <dt><a href="#NAME">NAME</a></dt>
 <dd><p>Unique name to identify template; should form the package name when prefixed
-with <code>serve-markdown-it-template-</code>.</p>
+with <code>http-server-md-template-</code>.</p>
 </dd>
 <dt><a href="#PUBLIC_PATH">PUBLIC_PATH</a></dt>
 <dd><p>Absolute path to rendered resources folder, ready for serving.</p>
@@ -69,10 +69,10 @@ default.</p>
 </dd>
 </dl>
 
-<a name="module_serve-markdown-it-template-blank"></a>
+<a name="module_http-server-md-template-blank"></a>
 
-## serve-markdown-it-template-blank
-Blank template skeleton for [serve-markdown-it](https://github.com/f3rno/serve-markdown-it), serving as a
+## http-server-md-template-blank
+Blank template skeleton for [http-server-md](https://github.com/f3rno64/http-server-md), serving as a
 reference for the required structure.
 
 Used by the `sermit` CLI app to create an empty template repo via the
@@ -114,7 +114,7 @@ SCSS style definition, { dest: src }
 
 ## NAME
 Unique name to identify template; should form the package name when prefixed
-with `serve-markdown-it-template-`.
+with `http-server-md-template-`.
 
 **Kind**: global constant  
 <a name="PUBLIC_PATH"></a>

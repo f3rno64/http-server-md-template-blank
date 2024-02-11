@@ -1,19 +1,19 @@
-[#](#.md) serve-markdown-it-template-blank
+[#](#.md) http-server-md-template-blank
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-Blank template skeleton for serve-markdown-it, used to populate new template
+Blank template skeleton for http-server-md, used to populate new template
 modules by `sermit init-template`.
 
 > README & DOCS TODO
 
 ### [Installation](#installation)
-![npm badge](https://nodei.co/npm/serve-markdown-it.png?downloads=true&downloadRank=true&stars=true)
+![npm badge](https://nodei.co/npm/http-server-md.png?downloads=true&downloadRank=true&stars=true)
 
 ```bash
-pnpm add serve-markdown-it-template-blank
+pnpm add http-server-md-template-blank
 ```
 
 ### [Developing](#developing)
@@ -50,8 +50,8 @@ Distributed under the **MIT** license. See [LICENSE.md](LICENSE.md) for more inf
 ## Modules
 
 <dl>
-<dt><a href="#module_serve-markdown-it-template-blank">serve-markdown-it-template-blank</a></dt>
-<dd><p>Blank template skeleton for <a href="https://github.com/f3rno/serve-markdown-it">serve-markdown-it</a>, serving as a
+<dt><a href="#module_http-server-md-template-blank">http-server-md-template-blank</a></dt>
+<dd><p>Blank template skeleton for <a href="https://github.com/f3rno64/http-server-md">http-server-md</a>, serving as a
 reference for the required structure.</p>
 <p>Used by the <code>sermit</code> CLI app to create an empty template repo via the
 <code>init-template</code> command.</p>
@@ -81,7 +81,7 @@ project root by default.</p>
 </dd>
 <dt><a href="#NAME">NAME</a></dt>
 <dd><p>Unique name to identify template; should form the package name when prefixed
-with <code>serve-markdown-it-template-</code>.</p>
+with <code>http-server-md-template-</code>.</p>
 </dd>
 <dt><a href="#PUBLIC_PATH">PUBLIC_PATH</a></dt>
 <dd><p>Absolute path to rendered resources folder, ready for serving.</p>
@@ -118,10 +118,10 @@ default.</p>
 </dd>
 </dl>
 
-<a name="module_serve-markdown-it-template-blank"></a>
+<a name="module_http-server-md-template-blank"></a>
 
-## serve-markdown-it-template-blank
-Blank template skeleton for [serve-markdown-it](https://github.com/f3rno/serve-markdown-it), serving as a
+## http-server-md-template-blank
+Blank template skeleton for [http-server-md](https://github.com/f3rno64/http-server-md), serving as a
 reference for the required structure.
 
 Used by the `sermit` CLI app to create an empty template repo via the
@@ -163,7 +163,7 @@ SCSS style definition, { dest: src }
 
 ## NAME
 Unique name to identify template; should form the package name when prefixed
-with `serve-markdown-it-template-`.
+with `http-server-md-template-`.
 
 **Kind**: global constant  
 <a name="PUBLIC_PATH"></a>
@@ -257,8 +257,8 @@ Single file renderer.
 
 
 <!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/serve-markdown-it-template-blank.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/serve-markdown-it-template-blank
-[npm-downloads]: https://img.shields.io/npm/dm/serve-markdown-it-template-blank.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/f3rno/serve-markdown-it-template-blank/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/f3rno/serve-markdown-it-template-blank
+[npm-image]: https://img.shields.io/npm/v/http-server-md-template-blank.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/http-server-md-template-blank
+[npm-downloads]: https://img.shields.io/npm/dm/http-server-md-template-blank.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/f3rno64/http-server-md-template-blank/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/f3rno64/http-server-md-template-blank

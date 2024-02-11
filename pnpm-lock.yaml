@@ -109,6 +109,9 @@ devDependencies:
   eslint-plugin-why:
     specifier: ^1.2.0
     version: 1.2.0
+  http-server-md-lib:
+    specifier: ^1.0.5
+    version: 1.1.2
   husky:
     specifier: ^4.2.5
     version: 4.3.8
@@ -124,9 +127,6 @@ devDependencies:
   remark:
     specifier: ^15.0.1
     version: 15.0.1
-  serve-markdown-it-lib:
-    specifier: ^1.0.5
-    version: 1.0.5
   standard-version:
     specifier: ^8.0.0
     version: 8.0.2
@@ -2202,7 +2202,6 @@ packages:
   /dequal@2.0.3:
     resolution: {integrity: sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==}
     engines: {node: '>=6'}
-    requiresBuild: true
     dev: true
 
   /detect-indent@6.1.0:
@@ -4048,6 +4047,22 @@ packages:
       entities: 1.1.2
       inherits: 2.0.4
       readable-stream: 3.6.2
+    dev: true
+
+  /http-server-md-lib@1.1.2:
+    resolution: {integrity: sha512-5PKnXMpmCh9CAZ94pHIYQI7Ei8qw1EJ/vlM+8EoPlzTgxpntZ4ntxvEceFFse/jSk/xQ7mkeNXbHGUeQKjbNuw==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      bluebird: 3.7.2
+      colors: 1.4.0
+      fs-extra: 9.1.0
+      ignore: 5.3.1
+      lodash: 4.17.21
+      mime-types: 2.1.35
+      p-iteration: 1.1.8
+      resolve-global: 1.0.0
+      sass: 1.70.0
+      signale: 1.4.0
     dev: true
 
   /husky@4.3.8:
@@ -7147,22 +7162,6 @@ packages:
     resolution: {integrity: sha512-SaaNal9imEO737H2c05Og0/8LUXG7EnsZyMa8MzkmuHoELfT6txuj0cMqRj6zfPKnmQ1yasR4PCJc8x+M4JSPA==}
     dependencies:
       randombytes: 2.1.0
-    dev: true
-
-  /serve-markdown-it-lib@1.0.5:
-    resolution: {integrity: sha512-pliUX1xUY+3vQ6MdHwXVoYF1AW4CRpMHmpTbszzK8SlV8yPsDDBk01LpoTdHKAsP51Xz4uHKOhcepIsS55VFRg==}
-    engines: {node: '>=11.14.0'}
-    dependencies:
-      bluebird: 3.7.2
-      colors: 1.4.0
-      fs-extra: 9.1.0
-      ignore: 5.3.1
-      lodash: 4.17.21
-      mime-types: 2.1.35
-      p-iteration: 1.1.8
-      resolve-global: 1.0.0
-      sass: 1.70.0
-      signale: 1.4.0
     dev: true
 
   /set-blocking@2.0.0:

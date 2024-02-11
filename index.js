@@ -1,18 +1,18 @@
 const template = require('./lib')
 
 /**
- * @external serve-markdown-it
- * @see https://github.com/f3rno/serve-markdown-it
+ * @external http-server-md
+ * @see https://github.com/f3rno64/http-server-md
  */
 
 /**
- * Blank template skeleton for {@link external:serve-markdown-it}, serving as a
+ * Blank template skeleton for {@link external:http-server-md}, serving as a
  * reference for the required structure.
  *
  * Used by the `sermit` CLI app to create an empty template repo via the
  * `init-template` command.
  *
- * @module serve-markdown-it-template-blank
+ * @module http-server-md-template-blank
  * @license MIT
  */
 
