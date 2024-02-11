@@ -1,0 +1,1 @@
+pnpm lint && pnpm test && pnpm docs && pnpm gen-readme && git add README.md DOCUMENTATION.md"
