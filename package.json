@@ -37,19 +37,19 @@
     "scss"
   ],
   "scripts": {
-    "build": "npm run clean-public && npm run build-public && npm run docs",
+    "build": "pnpm clean-public && pnpm build-public && pnpm docs",
     "build-public": "node scripts/build_public.js",
     "clean-public": "rm -rf public/*",
-    "docs": "rm -rf DOCUMENTATION.md && ./node_modules/.bin/jsdoc2md -f index.js 'lib/**/*.js' test > DOCUMENTATION.md",
+    "docs": "rm -rf DOCUMENTATION.md && jsdoc2md -f index.js 'lib/**/*.js' test > DOCUMENTATION.md",
     "gen-readme": "rm README.md && node scripts/gen_readme.js",
-    "lint": "npm run lint-js && npm run lint-scss",
-    "lint-js": "./node_modules/.bin/eslint package.json '*.js' lib test",
-    "lint-scss": "./node_modules/.bin/stylelint res/styles",
-    "release": "npm run update-version && git push origin master --follow-tags && npm publish",
-    "test": "npm run lint && npm run unit",
-    "unit": "NODE_ENV=test ./node_modules/.bin/nyc ./node_modules/.bin/mocha --recursive",
-    "update-deps": "./node_modules/.bin/updates -u -g -c",
-    "update-version": "./node_modules/.bin/standard-version"
+    "lint": "pnpm lint-js && pnpm lint-scss",
+    "lint-js": "eslint package.json '*.js' lib test",
+    "lint-scss": "stylelint res/styles",
+    "release": "pnpm update-version && git push origin main --follow-tags && npm publish",
+    "test": "pnpm lint && pnpm unit",
+    "unit": "NODE_ENV=test nyc mocha --recursive",
+    "update-deps": "updates -u -g -c",
+    "update-version": "standard-version"
   },
   "dependencies": {
     "lodash": "^4.17.15",
@@ -92,6 +92,7 @@
     "jsdoc-to-markdown": "^6.0.1",
     "mocha": "^8.0.1",
     "nyc": "^15.1.0",
+    "remark": "^15.0.1",
     "serve-markdown-it-lib": "^1.0.5",
     "standard-version": "^8.0.0",
     "stylelint": "^13.6.1",
@@ -101,7 +102,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn test && yarn docs && yarn gen-readme && git add README.md DOCUMENTATION.md"
+      "pre-commit": "pnpm test && pnpm docs && pnpm gen-readme && git add README.md DOCUMENTATION.md"
     }
   }
 }
