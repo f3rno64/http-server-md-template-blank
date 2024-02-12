@@ -1,6 +1,6 @@
 {
   "name": "http-server-md-template-blank",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "license": "MIT",
   "description": "Blank template skeleton for http-server-md",
   "author": "Cris Mihalache <f3rno64@gmail.com>",
